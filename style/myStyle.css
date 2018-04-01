@@ -1,1 +1,47 @@
 @font-face{font-family:mBold;src:url(../font/Merienda/Merienda-Bold.ttf)}@font-face{font-family:mReg;src:url(../font/Merienda/Merienda-Regular.ttf)}@font-face{font-family:sReg;src:url(../font/Sacramento/Sacramento-Regular.ttf)}body{color:#8a4d0a}.fontMBold{font-family:mBold}.fontMReg{font-family:mReg}.margin-top-5{margin-top:5px}.margin-top-10{margin-top:10px}@media only screen and (min-width:769px){.content2,.content3,.content4{border-top:1px solid #c89224}.slideDiv{height:100vh;position:fixed;width:55%}.content1,.content2,.content3,.content4{height:100vh;width:45%;float:right;clear:right}.content1{background-image:url(../img/bgWed03.jpg);background-size:contain}.content2{background:url(../img/border2.png) right bottom no-repeat,url(../img/bg.png) left top}.home1,.home2{background-position:center;background-size:cover}.content2Venue{font-family:mReg;font-weight:700;font-size:20px;margin-top:20px}.venueMap{border:0;position:relative;top:0;left:50%;transform:translateX(-50%);margin-top:20px;height:300px;width:300px}.home1{background-image:url(../img/1.jpg)}.home2{background-image:url(../img/2.jpg)}.home3{background-image:url(../img/3.jpg);background-position:bottom;background-size:cover}.home4,.home5,.home6{background-position:center;background-size:cover}.home4{background-image:url(../img/4.jpg)}.home5{background-image:url(../img/5.jpg)}.home6{background-image:url(../img/6.jpg)}}@media only screen and (max-width:768px){.content2,.content3{border-top:1px solid #c89224}#imgSlideMobile,.content1,.content2,.content3{height:100vh;width:100%;float:right;clear:right}#imgSlide{display:none}#imgSlideMobile{background-image:url(../img/20_11.jpg);background-size:cover;background-position:center}.slideDiv{height:100vh;position:fixed;width:100%}.content1{background-image:url(../img/bgWed03.jpg);background-size:contain}.content2{background:url(../img/border2.png) right bottom no-repeat,url(../img/bg.png) left top;background-size:100%,33%}.content3{padding:0 15px}.content2Venue{font-family:mReg;font-weight:700;font-size:15px;margin-top:20px}.venueMap{border:0;position:relative;top:0;left:50%;transform:translateX(-50%);margin-top:15px;width:320px;height:170px}}#imgSlide{-webkit-transition:all 2s ease;-moz-transition:all 2s ease;-o-transition:all 2s ease;transition:all 2s ease}.saveDate{font-family:sReg;font-weight:700;font-size:50px;margin-top:110px}.amanWedsMint{font-family:sReg;font-weight:700;font-size:55px;margin-top:20px}.content1Weds,.theinSave,.we{font-family:mReg;font-weight:700}.we{font-size:25px}.content1Weds{font-size:20px;margin:20px 0}.theinSave{font-size:25px}.content1NameGSON,.content1NameSON{font-family:mReg;font-size:15px;font-weight:700}.content1NameGSON{margin-top:-15px}.content1NameSON{margin-top:5px}.verCenter{margin-top:calc(100vh - 90vh)}.content2Celeb{font-family:sReg;font-weight:700;font-size:30px;margin-top:40px;color:#9e4446}.underline{background-repeat:repeat-x}.underline--bacon{background-image:url(../img/bacon.svg);background-position:0 1.06em;background-size:28px 9px;color:#9e4446}.timelineMasterDiv{margin-top:50px;border-top:1px solid #000;padding-left:0}.timelineDate{position:absolute;top:-10px;background-color:#FFF;padding:0 10px}.clearfix:after{content:"";display:table;clear:both}
+
+.downArrow {
+  position: fixed;
+  bottom: 0%;
+  right: 45px;
+}
+
+.downTxt {
+  position: fixed;
+  bottom: 50px;
+  right: 45px;
+}
+
+.bounce {
+  -webkit-animation: bounce 3s infinite;
+  animation: bounce 3s infinite;
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
