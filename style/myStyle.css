@@ -3,7 +3,8 @@
 .downArrow {
   position: fixed;
   bottom: 0%;
-  right: 45px;
+  right: 5px;
+  color: #000;
 }
 
 .downTxt {
